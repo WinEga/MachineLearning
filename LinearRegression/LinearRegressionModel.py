@@ -41,7 +41,7 @@ predictions = my_linear.predict(x_test)
 
 print("The value of m", my_linear.coef_)
 print("The value of c", my_linear.intercept_)
-print(len(predictions))
+print("Test size : ", len(predictions))
 for i in range(len(predictions)):
     print(predictions[i], x_test[i], y_test[i])
 
